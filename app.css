@@ -122,10 +122,13 @@ footer {
     width: 300px;
   }
   .panel {
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    flex-wrap: wrap;
+  }
+  .arama-buton {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 250px;
+    margin-top: 15px;
   }
 }
